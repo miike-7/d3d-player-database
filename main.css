@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+[v-cloak] {display: none;}
+
+:root {
+  --main-color: #ffffff;
+}
+
+.bg-main {
+  background: var(--main-color);
+}
+
+.main-table {
+  width: 1100px;
+  margin: auto;
+}
+
+.main-table th:nth-child(2), .main-table th:nth-child(6), .main-table th:nth-child(15), .main-table th:nth-child(23),
+.main-table td:nth-child(2), .main-table td:nth-child(6), .main-table td:nth-child(15), .main-table td:nth-child(23) {
+  border-right: 1px solid #000;
+}
+
+.main-table th:nth-child(2) {
+  width: 110px;
+}
+
+.abilities-plus {
+  background: #89c4ff;
+}
+
+.abilities-minus {
+  background: #ff8484;
+}
+
+.pitching-form {
+  background: rgb(39, 34, 34);
+}
+
+.abilities-lime {
+  background: rgb(0, 192, 0);
+}
