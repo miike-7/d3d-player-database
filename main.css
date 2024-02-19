@@ -20,22 +20,57 @@
   border-right: 1px solid #000;
 }
 
+.main-table th:nth-child(1) {
+  width: 50px;
+}
+
 .main-table th:nth-child(2) {
   width: 110px;
 }
 
+.main-table th:nth-last-child(1) {
+  width: 310px;
+}
+
+.hand-right {
+  background: azure!important;
+}
+
+.hand-left {
+  background: palegreen!important;
+}
+
+.hand-switch {
+  background: khaki!important;
+}
+
 .abilities-plus {
-  background: #89c4ff;
+  background: #89c4ff!important;
 }
 
 .abilities-minus {
-  background: #ff8484;
+  background: #ff8484!important;
 }
 
 .pitching-form {
-  background: rgb(39, 34, 34);
+  background: rgb(39, 34, 34)!important;
 }
 
 .abilities-lime {
-  background: rgb(0, 192, 0);
+  background: mediumseagreen!important;
 }
+
+.pitcher-abilities {
+  background: #4f99b6;
+}
+
+.bg-param-ten {background: #fd2323!important;}
+.bg-param-nine {background: #fe5959!important;}
+.bg-param-eight {background: #ffa500!important;}
+.bg-param-seven {background: #ffff00!important;}
+.bg-param-six {background: #90ee90!important;}
+.bg-param-five {background: #8ad0f9!important;}
+.bg-param-four {background: #c0c0c0!important;}
+.bg-param-tree {background: #d3d3d3!important;}
+.bg-param-two {background: #dcdcdc!important;}
+.bg-param-one {background: azure!important;}
